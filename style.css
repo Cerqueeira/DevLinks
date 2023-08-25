@@ -1,16 +1,6 @@
 body {
-  /*
-  background-image: url(./assets/assets/bg-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  */
-
-  /*background: color image repeat position/size */
   background: var(--bg-url) top center/cover;
 }
-
-/*Para o comando "padding" e "width" funcionarem juntos, tive que adicionar um seletor universal com "box-sizing:border-box;" do contrário, o comando "width" não funcionaria.*/
 
 :root {
   --text-color: white;
@@ -67,14 +57,10 @@ body * {
 
 /*switch*/
 
-
 .light #switch button {
-
-  right:0;
+  right: 0;
   left: initial;
-
 }
-
 
 #switch {
   width: 64px;
